@@ -1,0 +1,13 @@
+{
+  "businessName": "Alafia Agriculture",
+  "tagline": "Growing quality. Nourishing lives.",
+  "location": "Away(e) Village via Egbeda, Ibadan, Oyo State, Nigeria",
+  "phones": ["+234 803 410 4660", "+234 805 087 1162"],
+  "emails": ["apekefemi@gmail.com", "adekeyeabiodun@gmail.com"],
+  "announcement": {
+    "visible": false,
+    "title": "Farm update",
+    "body": "Add an occasional announcement here."
+  },
+  "note": "Update this file as business information changes. Replace sample imagery with genuine farm photographs before launch."
+}
