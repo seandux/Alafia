@@ -3,28 +3,89 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#102d18">
-  <meta name="description" content="Alafia Agriculture produces fresh chicken eggs, poultry, live fish and farm produce in Ibadan, Nigeria. Contact us for bulk supply enquiries.">
-  <title>Alafia Agriculture | Farm Production & Bulk Supply</title>
+  <meta name="theme-color" content="#173b2b">
+  <meta name="description" content="Alafia Agriculture is a farm-led producer of fresh chicken eggs, poultry, live fish and selected farm produce in Ibadan, Nigeria. Enquire about bulk supply.">
+  <title>Alafia Agriculture — From Our Farm to Your Table</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="header">
-  <a class="brand" href="#home"><span class="mark">A</span><span><b>LAFIA</b><small>GRICULTURE</small></span></a>
-  <button class="menu" id="menu" aria-label="Toggle navigation">☰</button>
-  <nav id="nav"><a href="#about">About</a><a href="#products">Products</a><a href="#farm">Our farm</a><a href="#contact">Contact</a><a class="nav-cta" href="#contact">Bulk enquiries ↗</a></nav>
-</header>
-<main>
-<section class="hero" id="home"><div class="hero-bg"></div><div class="wrap hero-content"><p class="eyebrow">ALAFIA AGRICULTURE · IBADAN, NIGERIA</p><h1>Good food begins<br><em>with good farming.</em></h1><p class="lead">Fresh eggs, quality poultry, live fish and farm produce — grown with care for customers and businesses.</p><a class="button gold" href="#products">Explore our products ↗</a><a class="plain-link" href="#contact">Talk to the farm →</a></div></section>
-<section class="wrap section" id="about"><p class="eyebrow dark">01 / WHO WE ARE</p><div class="two-col"><h2>A farm with a focus<br>on <em>quality and supply.</em></h2><p>Alafia Agriculture is a farm-led agricultural business producing fresh eggs, poultry, fish and selected farm produce for retailers and bulk buyers.</p></div><div class="stats"><div><b>01</b><span>Eggs & poultry</span></div><div><b>02</b><span>Fish farming</span></div><div><b>03</b><span>Farm produce</span></div></div></section>
-<section class="products section" id="products"><div class="wrap"><p class="eyebrow dark">02 / WHAT WE PRODUCE</p><div class="two-col"><h2>From our farm<br><em>to your business.</em></h2><p>Our product range is led by fresh chicken eggs, alongside poultry, fish and selected agricultural produce. Contact us about availability and bulk quantities.</p></div><div class="feature"><img src="https://images.unsplash.com/photo-1506976785307-8732e854ad03?auto=format&fit=crop&w=1200&q=85" alt="Fresh eggs"><div><small>OUR PRIMARY PRODUCT</small><h3>Fresh chicken eggs</h3><p>Fresh eggs from our poultry operation, available for wholesale and bulk enquiries.</p><a class="button dark" href="https://wa.me/2348034104660?text=Hello%20Alafia%20Agriculture%2C%20I%20am%20interested%20in%20bulk%20egg%20supply.">Enquire about eggs ↗</a></div></div><div class="cards" id="product-list"></div></div></section>
-<section class="farm" id="farm"><div class="farm-image"></div><div class="farm-copy"><p class="eyebrow">03 / OUR APPROACH</p><h2>Rooted in the farm.<br><em>Focused on the customer.</em></h2><p>We believe agricultural supply should be dependable and relationships straightforward. Alafia Agriculture brings several farm product categories together, with a focus on serving customers who value quality and clear communication.</p><ul><li>Farm-led production</li><li>Bulk supply enquiries</li><li>A diverse product range</li></ul></div></section>
-<section class="wrap bulk"><div><p class="eyebrow dark">FOR WHOLESALE & COMMERCIAL BUYERS</p><h2>Planning a bulk order?</h2><p>Tell us what you need, the quantity and where it needs to go. We can follow up about availability, pricing and collection or delivery arrangements.</p></div><a class="button gold" href="#contact">Request a quotation ↗</a></section>
-<section class="contact" id="contact"><div class="wrap contact-grid"><div><p class="eyebrow">04 / GET IN TOUCH</p><h2>Let's talk<br><em>farm supply.</em></h2><p>For product enquiries, wholesale orders and business partnerships, contact Alafia Agriculture directly.</p><p>⌖ Away(e) Village via Egbeda, Ibadan, Oyo State, Nigeria</p></div><div class="contact-card"><small>CALL US</small><a href="tel:+2348034104660">+234 803 410 4660</a><a href="tel:+2348050871162">+234 805 087 1162</a><hr><small>EMAIL</small><a href="mailto:apekefemi@gmail.com">apekefemi@gmail.com</a><a href="mailto:adekeyeabiodun@gmail.com">adekeyeabiodun@gmail.com</a><a class="button dark full" href="https://wa.me/2348034104660" target="_blank" rel="noopener">Start a WhatsApp enquiry ↗</a></div></div></section>
-</main>
-<footer><div class="wrap footer"><a class="brand inverse" href="#home"><span class="mark">A</span><span><b>LAFIA</b><small>GRICULTURE</small></span></a><span>© <span id="year"></span> Alafia Agriculture. All rights reserved.</span><a href="#home">BACK TO TOP ↑</a></div></footer>
-<script src="script.js"></script>
-</body></html>
+  <div class="announcement"><span>FARM DIRECT · IBADAN, NIGERIA</span><span>Wholesale and bulk enquiries welcome <a href="#contact">Talk to our team ↗</a></span></div>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Alafia Agriculture home"><span class="wordmark-icon">✳</span><span><strong>ALAFIA</strong><small>AGRICULTURE</small></span></a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" id="main-nav">
+      <a href="#story">Our story</a><a href="#products">What we produce</a><a href="#farm">The farm</a><a href="#supply">For buyers</a><a class="nav-contact" href="#contact">Get in touch <span>↗</span></a>
+    </nav>
+  </header>
+  <main id="home">
+    <section class="hero">
+      <div class="hero-photo" role="img" aria-label="Sunlit green agricultural landscape"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-inner">
+        <p class="eyebrow light"><i></i> GOOD FOOD. ROOTED IN GOOD FARMING.</p>
+        <h1>Grown with care.<br><em>Raised with purpose.</em></h1>
+        <p class="hero-copy">From fresh farm eggs to poultry, fish and everyday produce, Alafia Agriculture brings farm products closer to the people and businesses that need them.</p>
+        <div class="hero-actions"><a class="button button-gold" href="#products">Explore our produce <span>↗</span></a><a class="text-link light-link" href="#story">Get to know Alafia <span>↓</span></a></div>
+      </div>
+      <div class="hero-note"><span>01 / 04</span><span>FARM PRODUCTION · FOOD SUPPLY</span></div>
+    </section>
+
+    <section class="intro section-pad" id="story">
+      <div class="section-kicker"><span>01</span><span>WHO WE ARE</span></div>
+      <div class="intro-grid">
+        <h2>Good food starts<br>closer to <em>the source.</em></h2>
+        <div class="intro-copy"><p class="lead-copy">We are Alafia Agriculture — a farm-led agricultural business based in Ibadan, Nigeria.</p><p>We produce fresh chicken eggs, poultry, live fish and selected farm produce. Our focus is simple: bring together the products our customers need and make it easier to enquire, source and buy directly from the farm.</p><a class="under-link" href="#farm">A little more about our farm <span>↗</span></a></div>
+      </div>
+      <div class="intro-bottom"><span>FARM-LED PRODUCTION</span><span>POULTRY · FISH · PRODUCE</span><span>IBADAN, OYO STATE</span></div>
+    </section>
+
+    <section class="products-section section-pad" id="products">
+      <div class="section-kicker"><span>02</span><span>WHAT WE PRODUCE</span></div>
+      <div class="section-heading"><div><p class="eyebrow green">FROM OUR FARM</p><h2>A range made for<br><em>everyday nourishment.</em></h2></div><p>Explore our main product categories. For current availability, quantities and pricing, send us an enquiry and our team will follow up.</p></div>
+      <div class="product-grid">
+        <article class="product-card product-feature">
+          <div class="product-image eggs-image"><span class="product-number">01 / OUR MAIN PRODUCT</span></div>
+          <div class="product-info"><div><span class="product-type">POULTRY</span><h3>Fresh chicken eggs</h3><p>Our leading product, supplied for households, retailers and commercial buyers.</p></div><a class="circle-arrow" href="#contact" aria-label="Enquire about fresh eggs">↗</a></div>
+        </article>
+        <article class="product-card">
+          <div class="product-image chicken-image"><span class="product-number">02</span></div>
+          <div class="product-info"><div><span class="product-type">POULTRY</span><h3>Live chickens</h3><p>Live poultry for customers and businesses. Ask about availability.</p></div><a class="circle-arrow" href="#contact" aria-label="Enquire about live chickens">↗</a></div>
+        </article>
+        <article class="product-card">
+          <div class="product-image frozen-image"><span class="product-number">03</span></div>
+          <div class="product-info"><div><span class="product-type">POULTRY</span><h3>Frozen chickens</h3><p>Frozen poultry products for household and commercial needs.</p></div><a class="circle-arrow" href="#contact" aria-label="Enquire about frozen chickens">↗</a></div>
+        </article>
+        <article class="product-card">
+          <div class="product-image fish-image"><span class="product-number">04</span></div>
+          <div class="product-info"><div><span class="product-type">AQUACULTURE</span><h3>Live fish</h3><p>Farmed fish for buyers looking for fresh supply.</p></div><a class="circle-arrow" href="#contact" aria-label="Enquire about live fish">↗</a></div>
+        </article>
+        <article class="product-card">
+          <div class="product-image crops-image"><span class="product-number">05</span></div>
+          <div class="product-info"><div><span class="product-type">FARM PRODUCE</span><h3>Staple produce</h3><p>Garri, pap flour, cassava flour, yam flour and selected crops.</p></div><a class="circle-arrow" href="#contact" aria-label="Enquire about farm produce">↗</a></div>
+        </article>
+      </div>
+      <div class="products-foot"><span>Looking for something specific?</span><a class="under-link" href="#contact">Ask about product availability <span>↗</span></a></div>
+    </section>
+
+    <section class="farm-section" id="farm">
+      <div class="farm-visual"><div class="farm-stamp"><span>ALAFIA</span><b>FARM<br>TO TABLE</b><span>IBADAN · NIGERIA</span></div></div>
+      <div class="farm-content"><div class="section-kicker light-kicker"><span>03</span><span>OUR APPROACH</span></div><p class="eyebrow light">CLOSER TO THE SOURCE</p><h2>Rooted in the land.<br><em>Connected to people.</em></h2><p>We believe the relationship between a farm and its customers should be straightforward. That means being clear about what we produce, listening to what buyers need and making direct enquiries easy.</p><div class="farm-points"><div><b>01</b><span>Farm-led products</span></div><div><b>02</b><span>Direct conversations</span></div><div><b>03</b><span>Supply enquiries welcome</span></div></div></div>
+    </section>
+
+    <section class="buyers-section section-pad" id="supply">
+      <div class="section-kicker"><span>04</span><span>FOR OUR BUYERS</span></div>
+      <div class="buyers-grid"><div><p class="eyebrow green">RETAIL · WHOLESALE · COMMERCIAL</p><h2>Let's make your<br><em>supply simpler.</em></h2></div><div class="buyers-copy"><p class="lead-copy">Need eggs, poultry, fish or farm produce in quantity?</p><p>Share the product you need, your estimated quantity and your location. We’ll get back to you to discuss availability, pricing and the next steps.</p><a class="button button-green" href="https://wa.me/2348034104660?text=Hello%20Alafia%20Agriculture%2C%20I%20would%20like%20to%20make%20a%20bulk%20supply%20enquiry." target="_blank" rel="noopener">Start a bulk enquiry <span>↗</span></a></div></div>
+      <div class="buyer-strip"><span>01 / Tell us what you need</span><span>02 / Discuss availability</span><span>03 / Arrange your order</span></div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-image"></div><div class="contact-content"><div class="section-kicker light-kicker"><span>05</span><span>CONTACT ALAFIA</span></div><p class="eyebrow light">WE'D LOVE TO HEAR FROM YOU</p><h2>Let's talk<br><em>good food.</em></h2><p>For product enquiries, bulk orders and business conversations, reach out to Alafia Agriculture.</p><div class="contact-details"><div><span>CALL / WHATSAPP</span><a href="tel:+2348034104660">+234 803 410 4660</a><a href="tel:+2348050871162">+234 805 087 1162</a></div><div><span>EMAIL</span><a href="mailto:apekefemi@gmail.com">apekefemi@gmail.com</a><a href="mailto:adekeyeabiodun@gmail.com">adekeyeabiodun@gmail.com</a></div><div><span>FIND THE FARM</span><p>Away(e) Village via Egbeda,<br>Ibadan, Oyo State, Nigeria</p></div></div><a class="button button-gold contact-cta" href="https://wa.me/2348034104660" target="_blank" rel="noopener">Message us on WhatsApp <span>↗</span></a></div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="wordmark footer-mark" href="#home"><span class="wordmark-icon">✳</span><span><strong>ALAFIA</strong><small>AGRICULTURE</small></span></a><span class="footer-note">GROWN WITH CARE. ROOTED IN IBADAN, NIGERIA.</span><a class="back-top" href="#home">BACK TO TOP ↑</a><span class="copyright">© <span id="year"></span> Alafia Agriculture. All rights reserved.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
