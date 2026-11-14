@@ -1,13 +1,10 @@
 {
   "businessName": "Alafia Agriculture",
-  "tagline": "Growing quality. Nourishing lives.",
+  "tagline": "Grown with care. Raised with purpose.",
   "location": "Away(e) Village via Egbeda, Ibadan, Oyo State, Nigeria",
   "phones": ["+234 803 410 4660", "+234 805 087 1162"],
   "emails": ["apekefemi@gmail.com", "adekeyeabiodun@gmail.com"],
-  "announcement": {
-    "visible": false,
-    "title": "Farm update",
-    "body": "Add an occasional announcement here."
-  },
-  "note": "Update this file as business information changes. Replace sample imagery with genuine farm photographs before launch."
+  "primaryProduct": "Fresh chicken eggs",
+  "products": ["Fresh chicken eggs", "Live chickens", "Frozen chickens", "Live fish", "Garri", "Pap flour", "Cassava flour", "Yam flour", "Selected crops"],
+  "note": "Update this file as business information changes. Replace sample stock photography with authentic Alafia Agriculture farm photographs before launch."
 }
