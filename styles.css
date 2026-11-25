@@ -7,3 +7,74 @@
 .wordmark-logo{width:190px;max-height:70px;object-fit:contain;object-position:left center;background:transparent}
 .footer-logo{width:165px;max-height:62px}
 @media(max-width:760px){.wordmark-logo{width:158px;max-height:60px}.footer-logo{width:145px;max-height:54px}}
+
+
+/* Alafia premium refresh — editorial, confident and quietly animated */
+:root{--forest:#183d2c;--forest-deep:#102b20;--leaf:#738b61;--gold:#c9a052;--cream:#f3f0e6;--paper:#fcfbf7;--ink:#1b3024;--muted:#69766c;--line:#dce1d7}
+body{font-family:"DM Sans",sans-serif}
+.site-header{backdrop-filter:blur(14px);background:rgba(252,251,247,.96);box-shadow:0 8px 28px rgba(16,43,32,.035)}
+.wordmark-logo{width:190px;max-height:72px;object-fit:contain}
+.footer-logo{width:165px;max-height:64px}
+.hero{min-height:min(760px,82vh)}
+.hero-photo{transform:scale(1.015);animation:hero-settle 1.4s cubic-bezier(.2,.7,.2,1) both}
+.hero-shade{background:linear-gradient(90deg,rgba(9,31,21,.88) 0%,rgba(9,31,21,.68) 43%,rgba(9,31,21,.12) 100%),linear-gradient(0deg,rgba(9,31,21,.32),transparent 48%)}
+.hero-inner{padding-top:105px;padding-bottom:120px}
+.hero h1{max-width:820px;font-size:clamp(54px,7vw,96px);line-height:1.01}
+.hero-copy{font-size:15px;max-width:520px}
+.button{transition:transform .25s ease,background .25s ease,box-shadow .25s ease}
+.button:hover{transform:translateY(-3px);box-shadow:0 12px 25px rgba(8,28,18,.14)}
+.button-gold:hover{background:#dfbd76}
+.button-green:hover{background:#28553d}
+.section-pad{padding-top:clamp(78px,9vw,126px);padding-bottom:clamp(78px,9vw,126px)}
+.section-kicker{color:#8a927f}
+.section-kicker span:first-child{color:inherit}
+.intro-grid{gap:11%;margin-top:56px}
+.intro-copy .lead-copy,.buyers-copy .lead-copy{font-size:clamp(20px,2vw,25px)}
+.products-section{background:linear-gradient(180deg,#f3f0e6 0%,#f8f6ef 100%)}
+.product-grid{gap:20px}
+.product-card{overflow:hidden;border:1px solid rgba(24,61,44,.07);box-shadow:0 8px 28px rgba(24,45,32,.035);transition:transform .35s ease,box-shadow .35s ease}
+.product-card:hover{transform:translateY(-5px);box-shadow:0 18px 40px rgba(24,45,32,.10)}
+.product-image{background-color:#e5e8dc;transition:transform .65s cubic-bezier(.2,.7,.2,1)}
+.product-card:hover .product-image{transform:scale(1.025)}
+.product-feature .product-info{background:#fcfbf7}
+.product-info h3{font-size:clamp(24px,2.4vw,31px)}
+.circle-arrow{transition:all .25s ease}
+.farm-section{background:#112e22}
+.farm-visual{min-height:650px}
+.farm-content{max-width:700px}
+.farm-content h2{line-height:1.08}
+.farm-points div{font-size:11px}
+.buyers-section{background:#fcfbf7}
+.buyer-strip{font-size:9px;letter-spacing:.13em}
+.contact-section{background:#153a29}
+.contact-image{position:relative}
+.contact-image:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 60%,rgba(21,58,41,.18))}
+.contact-content{max-width:850px}
+.site-footer{background:#0d281d}
+.footer-mark{display:inline-flex}
+.hero-note{letter-spacing:.18em}
+a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+.reveal.is-visible{opacity:1;transform:translateY(0)}
+@keyframes hero-settle{from{transform:scale(1.055)}to{transform:scale(1.015)}}
+@media(max-width:760px){
+ .site-header{height:74px}
+ .wordmark-logo{width:158px;max-height:60px}
+ .hero{min-height:650px}
+ .hero-inner{padding-top:80px;padding-bottom:100px}
+ .hero h1{font-size:clamp(48px,12vw,66px)}
+ .hero-copy{font-size:13px;line-height:1.85}
+ .hero-note{font-size:7px;gap:12px}
+ .section-pad{padding-left:22px;padding-right:22px}
+ .intro-grid{margin-top:36px}
+ .product-feature .product-info{padding:22px}
+ .farm-visual{min-height:330px}
+ .farm-content{padding:58px 24px 66px}
+ .contact-content{padding:58px 24px 66px}
+ .footer-logo{width:145px}
+}
+@media(prefers-reduced-motion:reduce){
+ .hero-photo{animation:none;transform:none}
+ .reveal,.reveal.is-visible{opacity:1;transform:none;transition:none}
+ .product-card,.product-image,.button{transition:none}
+}
