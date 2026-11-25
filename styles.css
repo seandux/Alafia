@@ -78,3 +78,6 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offse
  .reveal,.reveal.is-visible{opacity:1;transform:none;transition:none}
  .product-card,.product-image,.button{transition:none}
 }
+
+/* Restore meaningful labels after removing the old decorative counters */
+.section-kicker>span:first-child,.hero-note>span:first-child{display:inline!important}
